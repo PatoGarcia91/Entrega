@@ -1,0 +1,157 @@
+/*H e a d e r*/
+header{
+   /* background-color: yellow;*/
+ /*  width: 90%;
+   margin-left: 5%;
+   margin-right: 5%;*/
+   background-color: #7F4AA4;
+}
+header img{
+    max-width: 10%;
+    height: auto;
+
+}
+/*
+header nav {
+    padding-bottom: 50px;
+
+}*/
+header nav ul{
+    list-style-type: none;
+   /* text-align: center;*/
+
+}
+/*
+header nav ul li{
+    display: inline;
+
+}*/
+
+header nav ul li a{
+ /*   padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;*/
+    color: white;
+    background-color: #AA8ED6;
+    font-weight: bold;
+    font-size: larger;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+
+    
+}
+/*F i n   H e a d e r*/
+
+body{
+    background-color: #F7F7F7;
+    color: white;
+}
+
+/*M a i n*/
+
+
+main{
+ /*   width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: center;*/
+    background-color: #7F4AA4;
+}
+
+main h1{
+    color: #FBEE0F;
+    font-family: "Fascinate", system-ui;
+    text-align: left;
+ /*   padding-top: 2%;*/
+}
+
+main h2{
+    color: #FBEE0F;
+    font-family: "Fascinate", system-ui;
+    text-align: left;
+ /*   padding-top: 2%;*/
+    font-size: 200%;
+}
+main h3{
+    color: #FBEE0F;
+    font-family: "Fascinate", system-ui;
+    text-align: left;
+  /*  padding-top: 2%;*/
+    font-size: 200%;
+}
+main h5{
+    color: #FBEE0F;
+    font-family: "Fascinate", system-ui;
+    text-align: left;
+ /*   padding-top: 2%;*/
+    font-size: 150%;
+}
+main h4{
+    color: #FBEE0F;
+    font-family: "Fascinate", system-ui;
+    text-align: left;
+    font-size: 150%;
+}
+#banner{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1%;
+}
+main p{
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+
+}
+
+main a{
+    color: white;
+}
+
+/*.imgTexto{
+    display: inline-block;
+    padding-left: 5%;
+}*/
+/*
+.imgTexto img{
+    max-width: 50%;
+    height: auto;
+    float: left;
+}*/
+/*
+.imgTexto p{
+    text-align: left;
+    float: left;
+    max-width: 50%;
+}
+
+form{
+    padding-left: 15%;
+}*/
+/*F i n   M a i n*/
+
+/*F o o t e r*/
+footer{
+ /*   width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 1%;
+    float: center;*/
+    background-color: #7F4AA4;
+    
+
+}
+
+footer img{
+    max-width: 10%;
+    height: auto;
+    display: inline;
+}
+
+footer p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+
+}
+/*F i n   F o o t e r*/
