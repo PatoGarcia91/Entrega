@@ -1,12 +1,15 @@
 /*H e a d e r*/
-header{
-   /* background-color: yellow;*/
- /*  width: 90%;
-   margin-left: 5%;
-   margin-right: 5%;*/
+.navbar{
    background-color: #7F4AA4;
 }
-header img{
+
+.navbar a{   
+    color: #FBEE0F;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.logo-img{
     max-width: 10%;
     height: auto;
 
@@ -16,11 +19,11 @@ header nav {
     padding-bottom: 50px;
 
 }*/
-header nav ul{
+/*header nav ul{
     list-style-type: none;
    /* text-align: center;*/
-
-}
+/*
+}*/
 /*
 header nav ul li{
     display: inline;
