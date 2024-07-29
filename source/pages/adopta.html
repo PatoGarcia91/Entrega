@@ -52,52 +52,54 @@
 
     </header>
     <!--F i n   H e a d e r-->
+
+    <img src="../images/banner/banner.png" alt="Banner" id="banner">
+
     <!--M a i n-->
     <main>
-        <img src="../images/banner/banner.png" alt="Banner" id="banner">
 
         <h1>Buscador de adopciones</h1>
 
         <!--Buscador-->
-        <section>
-            <label for="especie">Especie: </label>
-            <select name="especie" id="especie">
-                <option value="Perro">Perro</option>
-                <option value="Gato">Gato</option>
-                <option value="Ave">Ave</option>
-                <option value="Tortuga">Tortuga</option>
-                <option value="Otros">Otros</option>
+        <section class="section-container">
+            <form action="" class="grid-container">
+                <label for="especie">Especie: </label>
+                <select name="especie" id="especie" class="grid-item">
+                    <option value="Perro">Perro</option>
+                    <option value="Gato">Gato</option>
+                    <option value="Ave">Ave</option>
+                    <option value="Tortuga">Tortuga</option>
+                    <option value="Otros">Otros</option>
 
-            </select>
+                </select>
 
-            <label for="zona">Zona: </label>
-            <select name="zona" id="zona">
-                <option value="Parque Chacabuco">Parque Chacabuco</option>
-                <option value="Congreso">Congreso</option>
-                <option value="Balvanera">Balvanera</option>
-                <option value="Palermo">Palermo</option>
-                <option value="La Paternal">La Paternal</option>
-            </select>
+                <label for="zona">Zona: </label>
+                <select name="zona" id="zona" class="grid-item">
+                    <option value="Parque Chacabuco">Parque Chacabuco</option>
+                    <option value="Congreso">Congreso</option>
+                    <option value="Balvanera">Balvanera</option>
+                    <option value="Palermo">Palermo</option>
+                    <option value="La Paternal">La Paternal</option>
+                </select>
 
-            <br>
+                <label for="sexo">Sexo: </label>
+                <select name="sexo" id="sexo" class="grid-item">
+                    <option value="Macho">Macho</option>
+                    <option value="Hembra">Hembra</option>            
+                </select>
 
-            <label for="sexo">Sexo: </label>
-            <select name="sexo" id="sexo">
-                <option value="Macho">Macho</option>
-                <option value="Hembra">Hembra</option>            
-            </select>
-
-            <label for="tamano">Tamaño: </label>
-            <select name="tamano" id="tamano">
-                <option value="Chico">Chico</option>
-                <option value="Mediano">Mediano</option>
-                <option value="Grande">Grande</option>            
-            </select>
-            <button>Buscar</button>
+                <label for="tamano">Tamaño: </label>
+                <select name="tamano" id="tamano" class="grid-item">
+                    <option value="Chico">Chico</option>
+                    <option value="Mediano">Mediano</option>
+                    <option value="Grande">Grande</option>            
+                </select>
+                <input type="submit" value="Buscar" class="grid-item boton">
+            </form>
         </section>
 
+        <h3>Rita la perrita</h3>
         <section class="imgTexto">
-            <h3>Rita la perrita</h3>
             <img src="../images/images/adoptaperro-sf.png" alt="perro">    
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, obcaecati? Ut a nobis voluptatem facilis amet inventore sit non neque, cum maiores, 
                 dolores vero ullam rem maxime ipsum deserunt. Animi.
@@ -111,8 +113,8 @@
                 dolores vero ullam rem maxime ipsum deserunt. Animi.</p>
         </section>
 
+        <h3>Tito el gatito</h3>
         <section class="imgTexto">
-            <h3>Tito el gatito</h3>
             <img src="../images/images/adoptagato-sf.png" alt="gato">    
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, obcaecati? Ut a nobis voluptatem facilis amet inventore sit non neque, cum maiores, 
                 dolores vero ullam rem maxime ipsum deserunt. Animi.
@@ -126,8 +128,8 @@
                 dolores vero ullam rem maxime ipsum deserunt. Animi.</p>
         </section>
 
+        <h3>Cata la rata</h3>
         <section class="imgTexto">
-            <h3>Cata la rata</h3>
             <img src="../images/images/adoptarata-sf.png" alt="rata">    
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, obcaecati? Ut a nobis voluptatem facilis amet inventore sit non neque, cum maiores, 
                 dolores vero ullam rem maxime ipsum deserunt. Animi.
@@ -141,8 +143,8 @@
                 dolores vero ullam rem maxime ipsum deserunt. Animi.</p>
         </section>
 
+        <h3>Hugo el tortugo</h3>
         <section class="imgTexto">
-            <h3>Hugo el tortugo</h3>
             <img src="../images/images/adoptatortugareal-sf.png" alt="tortuga real">    
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, obcaecati? Ut a nobis voluptatem facilis amet inventore sit non neque, cum maiores, 
                 dolores vero ullam rem maxime ipsum deserunt. Animi.

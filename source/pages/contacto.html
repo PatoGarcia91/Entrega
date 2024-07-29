@@ -51,33 +51,40 @@
 
     </header>
     <!--F i n   H e a d e r-->
+
+    <img src="../images/banner/banner.png" alt="Banner" id="banner">
+
     <!--M a i n-->
     <main>        
-        <img src="../images/banner/banner.png" alt="Banner" id="banner">
 
         <h1>Contactanos</h1>
 
-        <h5>Si tenes dudas o necesitas generar un aviso de adopción, rellená el formulario y nos estaremos poniendo en contacto</h5>
+        <h5>Si tenes dudas o necesitas generar un aviso de adopción, rellená el formulario y nos estaremos poniendo en contacto</h5> <br>
 
-        <form action="">
-            <label for="nombre">Nombre: </label>
-            <input type="text" id="nombre">
-            <label for="apellido">Apellido: </label>
-            <input type="text" id="apellido"> 
-            <br>
-            <label for="email">Email: </label>
-            <input type="text" id="email"> 
-            <br>
-            <label for="telefono">Telefono: </label>
-            <input type="text" id="telefono"> 
-            <br>
-            <label for="motivo">Motivo: </label>
-            <textarea name="motivo" id="motivo" cols="80" rows="10"></textarea>
-            <input type="submit" value="Enviar">
-        </form>
+        <section class="section-container">
+            <form action="" class="grid-container">
 
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" class="grid-item">
 
+                <label for="apellido">Apellido: </label>
+                <input type="text" id="apellido" class="grid-item"> 
+
+                <label for="email">Email: </label>
+                <input type="text" id="email" class="grid-item"> 
+
+                <label for="telefono">Telefono: </label>
+                <input type="text" id="telefono" class="grid-item">  
+
+                <label for="motivo">Motivo: </label>
+                <textarea name="motivo" id="motivo" class="grid-item" cols="50" rows="7"></textarea>
+
+                <input type="submit" value="Enviar" class="grid-item boton">
+            </form>
+
+        </section>        
     </main>
+
     <!--F i n   M a i n-->  
     <!--F o o t e r-->
     <footer>
