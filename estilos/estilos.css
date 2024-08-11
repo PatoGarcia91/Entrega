@@ -1,3 +1,11 @@
+@keyframes anima-link {
+  from {
+    background-color: #AA8ED6;
+  }
+  to {
+    background-color: #7F4AA4;
+  }
+}
 body {
   background-color: #F7F7F7;
   color: white;
@@ -16,6 +24,8 @@ body header .navbar a {
 }
 body header .navbar a:hover {
   color: rgb(247, 246, 240);
+  animation-name: rubberBand;
+  animation-duration: 1s;
 }
 body a {
   color: #FBEE0F;
@@ -60,14 +70,21 @@ body main h5 {
   font-size: 150%;
 }
 body main p {
-  text-align: center;
+  text-align: left;
+}
+body main p a {
+  animation-name: anima-link;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
 }
 body main .imgTexto {
   display: flex;
   align-items: center;
 }
 body main .imgTexto img {
-  max-width: 50%;
+  max-width: 350px;
   height: auto;
 }
 body main .section-container {
@@ -99,6 +116,8 @@ body footer {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
+  max-width: 100%;
+  float: center;
 }
 body footer img {
   max-width: 10%;
