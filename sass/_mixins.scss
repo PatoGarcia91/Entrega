@@ -1,0 +1,15 @@
+@mixin formato-titulo{
+    color: $color-fuente-acentuada;
+    font-family: $family-font-acentuada;
+    text-align: left;
+}
+@mixin formato-titulo-con-padding{
+    color: $color-fuente-acentuada;
+    font-family: $family-font-acentuada;
+    text-align: left;
+    padding-top: 2%;
+}
+@mixin formato-img{
+    max-width: 10%;
+    height: auto;
+}

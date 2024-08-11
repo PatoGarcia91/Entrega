@@ -1,0 +1,118 @@
+//Import
+@import "variables";
+@import "mixins";
+
+
+body{
+    background-color: #F7F7F7;
+    color: white;
+
+    //header
+    header{
+        .logo-img{
+            @include formato-img;
+        }
+        .navbar{
+            background-color: $color-primario;
+            a{
+                color: $color-fuente-acentuada;
+                font-size: larger;
+                font-weight: bold;
+                &:hover{
+                    color: $color_mi_blanco;
+                }
+            }
+        }
+    }
+    a{
+        color: $color-fuente-acentuada;
+        &:hover{
+            color: $color_mi_blanco;
+        }
+    }
+    //fin header
+
+    //banner
+    #banner{
+        width: 100%;
+        height: auto;
+    }
+
+    //main
+    main{
+        background-color: $color-primario;
+        padding-left: 1%;
+        padding-right: 1%;
+        color: $color_mi_blanco;
+
+        h1{
+            //mixin
+            @include formato-titulo-con-padding;
+        }
+        h2, h3{
+            @include formato-titulo-con-padding;
+            font-size: $fuente-grande;
+        }
+        h4{
+            @include formato-titulo;
+            font-size: $fuente-media;
+        }
+        h5{
+            @include formato-titulo-con-padding;
+            font-size: $fuente-media;
+        }
+        p{
+            text-align: center;
+        }
+        .imgTexto{
+            display: flex;
+            align-items: center;
+        }
+        .imgTexto img{
+            max-width: 50%;
+            height: auto;
+        }
+        .section-container{
+            display: grid;
+            grid-template-columns: 1fr, 2fr, 1fr;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: 2fr;
+            border: 1px solid $color_mi_blanco;
+            background-color: $color-secundario;
+            width: 40%;
+            text-align: left;
+            color: $color_mi_blanco;
+            grid-column: 2/3;
+        }
+        .grid-item{
+            background-color: $color_mi_blanco;
+            border: 1px solid $color_mi_blanco;
+            text-align: left;
+        }
+        .boton{
+            background-color: $color-fuente-acentuada;
+            text-align: center;
+        }
+    }
+    //fin main
+
+    //footer
+    footer{
+        background-color: $color-primario;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+
+        img{
+            @include formato-img;
+        }
+        p{
+            color: $color_mi_blanco;
+            font-family: $family-font-general;
+        }
+    }
+    // fin footer
+}
