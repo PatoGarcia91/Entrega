@@ -110,6 +110,34 @@ body main .boton {
   background-color: #FBEE0F;
   text-align: center;
 }
+@media screen and (max-width: 800px) {
+  body main .imgTexto {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
+  body main .imgTexto img {
+    max-width: 350px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  body main .section-container {
+    display: grid;
+    grid-template-columns: 1fr, 2fr, 1fr;
+  }
+}
+@media screen and (max-width: 800px) {
+  body main .grid-container {
+    display: grid;
+    grid-template-columns: 2fr;
+    border: 1px solid rgb(247, 246, 240);
+    background-color: #AA8ED6;
+    width: 100%;
+    text-align: center;
+    color: rgb(247, 246, 240);
+  }
+}
 body footer {
   background-color: #7F4AA4;
   display: flex;

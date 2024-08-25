@@ -108,6 +108,35 @@ body{
             background-color: $color-fuente-acentuada;
             text-align: center;
         }
+        @media screen and (max-width: 800px) {
+            .imgTexto{
+                display: grid;
+                align-items: center;
+                justify-items: center;
+                img{
+                    max-width: 350px;
+                    height: auto;
+                }
+            }
+        }
+        @media screen and (max-width: 800px) {
+            .section-container{
+                display: grid;
+                grid-template-columns: 1fr, 2fr, 1fr;
+               
+            }
+        }
+        @media screen and (max-width: 800px) {
+            .grid-container {
+                display: grid;
+                grid-template-columns: 2fr;
+                border: 1px solid $color_mi_blanco;
+                background-color: $color-secundario;
+                width: 100%;
+                text-align: center;
+                color: $color_mi_blanco;
+            }
+        }
     }
     //fin main
 
